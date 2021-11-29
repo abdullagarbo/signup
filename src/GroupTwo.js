@@ -19,7 +19,7 @@ const imageHeight = Math.round((dimensions.width * 9) / 16);
 const imageWidth = dimensions.width;
 const Height = dimensions.height;
 
-const Signup = () => {
+const GroupTwo = () => {
   const [epost, setEpost] = useState(null);
   const [password, setPassword] = useState(null);
 
@@ -129,4 +129,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default Signup;
+export default GroupTwo;
